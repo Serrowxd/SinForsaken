@@ -1,0 +1,31 @@
+/* background */
+
+:root {
+  background-image: url('../assets/bkg.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+/* Nav */
+
+.nav_bkg {
+  background-color: whitesmoke;
+}
+
+.nav_div {
+  display: flex;
+  justify-content: space-between;
+  /* border: 1px solid black;
+  padding: 1rem;
+  border-radius: 3rem; */
+  margin: 25rem;
+  margin-top: 5rem;
+}
+
+.nav_div img {
+  height: 8rem;
+}
+
+.nav_div h4 {
+  padding-top: 5rem;
+}

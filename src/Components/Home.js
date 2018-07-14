@@ -8,7 +8,7 @@ import Nav from './Nav';
 class Home extends Component {
   render() {
     return (
-      <div>
+      <div className="background_image">
         <Nav />
       </div>
     );

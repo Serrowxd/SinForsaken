@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-import img from '../assets/sincakenbd.png';
+import img from '../assets/sincakelol.png';
 
 class Nav extends Component {
   state = {

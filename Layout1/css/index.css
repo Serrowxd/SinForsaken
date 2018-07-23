@@ -1,0 +1,39 @@
+html,
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Merienda', cursive;
+}
+
+.container-fluid,
+.navigationLeft,
+.navigationRight {
+  display: flex;
+  align-self: center;
+}
+
+.navigationLeft,
+.navigationRight {
+  background-color: pink;
+}
+
+.navigationLeft h1 {
+  /* margin-left: -10rem; */
+  margin-left: 8rem;
+  padding: 3rem;
+}
+
+.navigationRight h1 {
+  margin-right: 8rem;
+  padding: 3rem;
+}
+
+.container-fluid {
+  margin-top: 8rem;
+  justify-content: space-between;
+}
+
+.navlogo_img {
+  height: 15rem;
+  background-color: pink;
+  border-radius: 3rem;
+}

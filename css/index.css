@@ -1,5 +1,14 @@
 /* Global Nested Styling */
 
+html,
+body {
+  font-family: 'Merienda', cursive;
+}
+
+.container-fluid {
+  height: 90vh;
+}
+
 .nav,
 .container {
   justify-content: space-around;
@@ -7,8 +16,16 @@
 
 .nav,
 .cont_header {
-  background: linear-gradient(90deg, black, #2b001a);
-  background: linear-gradient(90deg, #2b001a, #161616);
+  background: linear-gradient(
+    90deg,
+    rgb(252, 215, 222),
+    rgb(255, 248, 249),
+    rgb(252, 215, 222)
+  );
+  /* background: linear-gradient(90deg, white, rgb(252, 215, 222), white); */
+  /* background: linear-gradient(-90deg, black, rgb(3, 1, 3), black); */
+  /* background: linear-gradient(to bottom right, rgb(0, 0, 0), #2b001a); */
+  /* background: linear-gradient(90deg, #2b001a, #161616); */
 }
 
 .nav,
@@ -25,14 +42,21 @@
 .nav {
   margin: 0;
   padding: 0;
+  width: 100%;
+  position: fixed;
+  z-index: 2;
 }
 
 .nav h1 {
-  color: whitesmoke;
+  /* color: #f9ebff; */
+  color: black;
+  padding: 0.3rem;
+  font-size: 1.5rem;
 }
 
 .nav h4 {
-  color: whitesmoke;
+  /* color: #f9ebff; */
+  color: black;
   padding: 0.5rem;
 }
 
@@ -47,14 +71,25 @@
 /* Header */
 
 .cont_header {
-  height: 96vh;
+  height: 90vh;
+  position: fixed;
+  width: 100%;
+  z-index: -1;
 }
 
-.cont_text {
-  font-size: 5rem;
-  color: whitesmoke;
+.cont_text h1 {
+  font-size: 10rem;
+  /* color: #f9ebff; */
+  color: black;
   align-self: center;
   text-align: center;
+}
+
+.cont_text h3 {
+  color: whitesmoke;
+  text-align: center;
+  align-self: flex-end;
+  margin-bottom: 15rem;
 }
 
 .cont_img {
@@ -64,4 +99,16 @@
 .cont_img img {
   width: auto;
   height: 30rem;
+}
+
+.cont_text span {
+  font-size: 2rem;
+}
+
+/* Main */
+
+.body-container {
+  background-color: white;
+  position: relative;
+  z-index: 1;
 }

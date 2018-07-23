@@ -1,0 +1,67 @@
+/* Global Nested Styling */
+
+.nav,
+.container {
+  justify-content: space-around;
+}
+
+.nav,
+.cont_header {
+  background: linear-gradient(90deg, black, #2b001a);
+  background: linear-gradient(90deg, #2b001a, #161616);
+}
+
+.nav,
+.container,
+.navCont1,
+.navCont2,
+.cont_text,
+.cont_img {
+  display: flex;
+}
+
+/* Navigation */
+
+.nav {
+  margin: 0;
+  padding: 0;
+}
+
+.nav h1 {
+  color: whitesmoke;
+}
+
+.nav h4 {
+  color: whitesmoke;
+  padding: 0.5rem;
+}
+
+.navCont1 h4 {
+  padding-right: 6rem;
+}
+
+.navCont2 h4 {
+  padding-left: 6rem;
+}
+
+/* Header */
+
+.cont_header {
+  height: 96vh;
+}
+
+.cont_text {
+  font-size: 5rem;
+  color: whitesmoke;
+  align-self: center;
+  text-align: center;
+}
+
+.cont_img {
+  align-self: center;
+}
+
+.cont_img img {
+  width: auto;
+  height: 30rem;
+}

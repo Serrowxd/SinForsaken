@@ -4,15 +4,18 @@ body {
   font-family: 'Merienda', cursive;
   height: 100vh;
 }
+
 .container {
   max-width: 1920px;
   width: auto;
 }
+
 .nav {
   display: flex;
   justify-content: center;
   overflow: hidden;
 }
+
 .container-fluid,
 .navigationLeft,
 .navigationRight {
@@ -20,54 +23,59 @@ body {
   align-self: center;
   max-width: 1820px;
   width: 100%;
+
+  .navigationLeft {
+    margin-right: -2rem;
+  }
+
+  .navigationRight {
+    margin-left: -2rem;
+  }
+
+  h1:hover {
+    color: green;
+    cursor: pointer;
+  }
 }
-.container-fluid .navigationLeft,
-.navigationLeft .navigationLeft,
-.navigationRight .navigationLeft {
-  margin-right: -2rem;
-}
-.container-fluid .navigationRight,
-.navigationLeft .navigationRight,
-.navigationRight .navigationRight {
-  margin-left: -2rem;
-}
-.container-fluid h1:hover,
-.navigationLeft h1:hover,
-.navigationRight h1:hover {
-  color: green;
-  cursor: pointer;
-}
+
 .navigationLeft,
 .navigationRight {
   background-color: pink;
   justify-content: space-around;
   height: 4rem;
   padding-top: 2.3rem;
+
   border-radius: 30px;
 }
+
 .container-fluid {
   margin-top: 6rem;
   justify-content: space-between;
 }
+
 .navlogo_img {
   height: 15rem;
   background-color: pink;
   border-radius: 30px;
   position: relative;
 }
+
 .home-content {
   display: flex;
   justify-content: space-around;
   height: 60vh;
-}
-.home-content .col {
-  display: flex;
-  flex-direction: column;
-}
-.home-content .left {
-  justify-content: space-around;
-}
-.home-content .right {
-  justify-content: center;
-  text-align: center;
+
+  .col {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .left {
+    justify-content: space-around;
+  }
+
+  .right {
+    justify-content: center;
+    text-align: center;
+  }
 }

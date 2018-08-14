@@ -66,8 +66,16 @@ body {
 }
 .home-content .left {
   justify-content: space-around;
+  text-align: center;
+  width: 50%;
+}
+.home-content .left p {
+  text-align: left;
 }
 .home-content .right {
   justify-content: center;
   text-align: center;
+}
+span {
+  color: pink;
 }
